@@ -14,6 +14,8 @@ const users = [];
 
 const SECRET_KEY = process.env.SECRET_KEY;
 
+console.log(SECRET_KEY);
+
 
 
 app.get('/', (req, res) => {
